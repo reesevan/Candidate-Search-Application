@@ -5,11 +5,10 @@ export type Candidate = {
   location: string;
   email: string;
   company: string;
-  avatar_url: string; // ✅ new field
+  avatar_url: string;
 };
 
-
-const usernames = [
+export const usernames = [
   'torvalds', 'gaearon', 'yyx990803', 'sindresorhus', 'getify',
   'kentcdodds', 'tj', 'sebmarkbage', 'andrew', 'octocat'
 ];
